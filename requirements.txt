@@ -6,3 +6,4 @@ protobuf==7.36.2
 python-dotenv==1.2.4
 requests==2.34.2
 urllib3==2.8.0
+pandas==3.0.3
