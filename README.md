@@ -15,7 +15,7 @@ The goal: given a bus line, a stop and a time, predict how late the bus will be.
 ## Roadmap
 
 - [x] **Data access** — read and decode the STM GTFS-realtime feed (Protocol Buffers)
-- [ ] **Collector** — continuously record vehicle positions and trip updates
+- [x] **Collector** — continuously record vehicle positions and trip updates
 - [ ] **Static GTFS** — join real-time data with planned schedules to compute actual delays
 - [ ] **Exploratory analysis** — which lines, hours and conditions cause the most delays?
 - [ ] **Baseline model** — a naive "average delay at this hour" model to beat
