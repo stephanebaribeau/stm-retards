@@ -71,6 +71,7 @@ This fetches the current vehicle positions and prints a summary of the feed.
 stm-retards/
 ├── src/
 │   └── explorer_flux.py   # Fetch and inspect the real-time feed
+│   └── collecteur.py      # Continuously record vehicle positions and trip updates
 ├── requirements.txt
 ├── .gitignore
 └── README.md
